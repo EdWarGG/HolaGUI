@@ -1,0 +1,11 @@
+package dad.holagui;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		HolaMundoFX.main(args);
+
+	}
+
+}
