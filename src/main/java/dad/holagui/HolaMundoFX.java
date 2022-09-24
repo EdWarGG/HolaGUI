@@ -27,6 +27,11 @@ public class HolaMundoFX extends Application {
 		saludarButton.setLayoutY(80); // coordenada y del botón
 		saludarButton.setOnAction(e -> saludoLabel.setText("¡¡¡Hola Mundo!!!"));
 		
+//		saludarButton.setOnAction(new EventHandler<ActionEvent>() {
+//			public void handle(ActionEvent e) {
+//				saludoLabel.setText("¡¡¡Hola Mundo!!!");
+//			}
+//		});
 		
 		// creamos el panel
 		Pane root = new Pane();
